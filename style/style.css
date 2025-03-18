@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+header {
+    height: 15vh;
+}
+
+main {
+    height: 75vh;
+}
+
+footer {
+    height: 10vh;
+}
+
 .LogoActiveEdgeSports {
     width: 50px;
     height: 50px;
@@ -24,15 +36,15 @@ nav {
     padding-left: 35%;
 }
 
-.TittleProducts{
+.TittleProducts {
     padding-left: 20%;
 }
 
-.Slogan1{
+.Slogan1 {
     padding-left: 25%;
 }
 
-.Slogan2{
+.Slogan2 {
     padding-left: 33%;
 }
 
@@ -42,14 +54,24 @@ nav {
     margin-left: 7%;
 }
 
-.ImageProductPrinc{
+.ImageProductPrinc {
     width: 60%;
 }
 
-.TittleCategories{
+.TittleCategories {
     padding-left: 40%;
 }
 
-.ImageCategorie{
-    width: 30%;
+.ImageCategorie {
+    width: 60%;
+}
+
+.Categorie {
+    display: inline-block;
+    width: 25%;
+    margin-left: 7%;
+}
+
+.TextFooter {
+    padding-left: 30%;
 }
