@@ -20,6 +20,7 @@ nav {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     height: 75vh;
 }
@@ -81,4 +82,10 @@ footer {
 
 .ImageCategorie {
     width: 50%;
+}
+
+.Members{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
