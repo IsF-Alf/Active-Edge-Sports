@@ -94,7 +94,15 @@ footer {
     flex-direction: column;
     gap: 5px;
     align-items: center;
-    width: 25%;
+    width: 30%;
+}
+
+.ProductPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding-bottom: 10px;
 }
 
 button {
@@ -118,6 +126,8 @@ button {
 
 .ImageProductPrinc {
     width: 30%;
+    height: 50%;
+    object-fit: scale-down;
 }
 
 .ImageCategorie {
@@ -185,6 +195,11 @@ ol {
 
 ol>li {
     counter-increment: lista;
+    font-weight: bold;
+}
+
+ol>li ol li {
+    font-weight: normal;
 }
 
 ol ol {
@@ -203,26 +218,39 @@ ol>li::before {
     content: counter(lista) ". ";
 }
 
-.CategorieProducts{
-height: 100%;
-width: 20%;
+.CategorieProducts {
+    height: 100%;
+    width: 20%;
 }
 
-.ProdPageProducts{
-height: 100%;
-width: 80%;    
+.ProdPageProducts {
+    height: 100%;
+    width: 80%;
 }
 
-.OurProd{
-    height: 70%;
+.OurProd {
+    height: 75%;
 }
 
-.Benefits{
-    height: 30%;
+.Benefits {
+    height: 25%;
 }
 
-.ProductsPage{
+.ProductsPage {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.CategoriePrin {
+    font-weight: bold;
+}
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+}
+
+table, td ,th{
+    border: solid 1px black;
 }
