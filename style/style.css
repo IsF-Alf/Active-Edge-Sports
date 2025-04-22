@@ -246,12 +246,36 @@ ol>li::before {
     font-weight: bold;
 }
 
-table{
+table {
     width: 90%;
     border-collapse: collapse;
 }
 
-table, td ,th{
+table,
+td,
+th {
     border: solid 1px black;
 }
 
+
+.FormContact{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.InputBox{
+    width: 100%;
+}
+
+.SectContact{
+    display: flex;
+    width: 90%;
+    gap: 2rem;
+}
+
+.ButtonContact{
+    background-color: #200d8f; 
+    border: none; 
+    color: #f07e13;
+}
